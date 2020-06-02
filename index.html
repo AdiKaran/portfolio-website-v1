@@ -87,12 +87,24 @@
                         <p>Send me a Message, or reach out to me on Linkedin!</p>
                         <div class="row">
                             <div class="col-8 col-12-small">
-                                <!-- Forms delivered through formspree.io -->
+                                <!-- Form submission using Netlify -->
                                 <form name="Contact Me" method="post" action="#" data-netlify="true">
                                     <div class="row gtr-uniform gtr-50">
-                                        <div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-                                        <div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-                                        <div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+                                        <div class="col-6 col-12-xsmall">
+                                            <label for="name">
+                                                <input type="text" name="name" id="name" placeholder="Name" />
+                                            </label>                                            
+                                        </div>
+                                        <div class="col-6 col-12-xsmall">
+                                            <label for="email">
+                                                <input type="email" name="email" id="email" placeholder="Email" />
+                                            </label>                                            
+                                        </div>
+                                        <div class="col-12">
+                                            <label for="message">
+                                                <textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
+                                            </label>                                            
+                                        </div>
                                     </div>
                                 </form>
                                 <ul class="actions">
