@@ -1597,12 +1597,12 @@ input[type=radio] + label:before {
   width: 100%;
 }
 .image.overlay {
-  text-align: center;
   position: relative;
 }
 .image.overlay .button-container {
   display: none;
   position: absolute;
+  text-align: center;
   top: 0;
   left: 0;
   bottom: 0;
@@ -1611,6 +1611,7 @@ input[type=radio] + label:before {
 .image.overlay .button-container.one-button .button {
   color: #fff !important;
   border: solid 5px;
+  border-radius: 0.2em;
   border-color: transparent;
   font-size: 1.5em;
   height: 100%;
@@ -1626,6 +1627,7 @@ input[type=radio] + label:before {
 .image.overlay .button-container.two-button .button {
   color: #fff !important;
   border: solid 0.25em;
+  border-radius: 0.2em;
   border-color: transparent;
   font-size: 1.2em;
   height: 100%;
@@ -2465,7 +2467,7 @@ input[type=button]:disabled,
 
   /* Button Container */
   .image.overlay .button-container.two-button .button {
-    width: 47.5%;
+    width: 48.6%;
     padding-top: 5%;
     font-size: 0.65em;
   }
@@ -2521,7 +2523,7 @@ input[type=button]:disabled,
 
   /* Button Container */
   .image.overlay .button-container.two-button .button {
-    width: 48%;
+    width: 48.8%;
     padding-top: 10%;
     font-size: 0.76em;
   }

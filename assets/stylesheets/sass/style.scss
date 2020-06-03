@@ -541,18 +541,19 @@ $size-header-pad: 4em;
         }
 
         &.overlay{
-            text-align: center;
             position: relative;
 
             .button-container {
                 display: none;
                 position: absolute;
+                text-align: center;
                 top: 0; left: 0; bottom: 0; right: 0;
 
                 &.one-button {
                     .button {
                         color: _palette(bg) !important  ;
                         border: solid 5px ;
+                        border-radius: _size(overlay-border-radius);
                         border-color: transparent;
                         font-size: 1.5em;
                         height: 100%;
@@ -572,6 +573,7 @@ $size-header-pad: 4em;
                     .button {
                         color: _palette(bg) !important  ;
                         border: solid 0.25em ;
+                        border-radius: _size(overlay-border-radius);
                         border-color: transparent;
                         font-size: 1.2em;
                         height: 100%;
@@ -1494,7 +1496,7 @@ $size-header-pad: 4em;
                 .button-container {
                     &.two-button {
                         .button {
-                            width: 47.5%;
+                            width: 48.6%;
                             padding-top: 5%;
                             font-size: 0.65em;
                         }
@@ -1573,7 +1575,7 @@ $size-header-pad: 4em;
                 .button-container {
                     &.two-button {
                         .button {
-                            width: 48%;
+                            width: 48.8%;
                             padding-top: 10%;
                             font-size: 0.76em;
                         }
