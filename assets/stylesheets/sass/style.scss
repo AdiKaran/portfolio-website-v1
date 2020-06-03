@@ -546,11 +546,9 @@ $size-header-pad: 4em;
             .button-container {
                 display: none;
                 position: absolute;
-                text-align: center;
                 top: 0; left: 0; bottom: 0; right: 0;
 
-                &.one-button {
-                    .button {
+                .button {
                         color: _palette(bg) !important  ;
                         border: solid 5px ;
                         border-radius: _size(overlay-border-radius);
@@ -566,29 +564,7 @@ $size-header-pad: 4em;
                             border-color: _palette(accent1, bg);
                             color: _palette(accent1, bg) !important; 
                         }
-                    }
-                }
-
-                &.two-button {
-                    .button {
-                        color: _palette(bg) !important  ;
-                        border: solid 0.25em ;
-                        border-radius: _size(overlay-border-radius);
-                        border-color: transparent;
-                        font-size: 1.2em;
-                        height: 100%;
-                        width: 49.5%;
-                        margin: 0 0;
-                        padding: 10% 0;
-                        min-width: 0;
-
-                        &:hover {
-                            border-color: _palette(accent1, bg);
-                            color: _palette(accent1, bg) !important; 
-                        }
-                    }
-
-                }              
+                    }           
                 
             }
 
@@ -598,7 +574,8 @@ $size-header-pad: 4em;
                     filter: brightness(30%);
                 }
                 .button-container {
-                    display: inline;
+                    display: inline-flex ;
+                    justify-content: space-between;
                 }
 				&:after {
 					opacity: 1.0;
@@ -1143,12 +1120,9 @@ $size-header-pad: 4em;
         .image {
             &.overlay{
                 .button-container {
-                    &.two-button {
-                        .button {
-                            width: 49.3%;
+                    .button {
                             font-size: 1.2em;
                         }
-                    }
                 }
 
             }
@@ -1284,16 +1258,8 @@ $size-header-pad: 4em;
         .image {
             &.overlay{
                 .button-container {
-                    &.two-button {
-                        .button {
-                            width: 49%;
-                            font-size: 1.2em;
-                        }
-                    }
-                    &.one-button {
-                        .button {
+                    .button {
                             font-size: 1.2em ;
-                        }
                     }
                 }
 
@@ -1494,21 +1460,11 @@ $size-header-pad: 4em;
         .image {
             &.overlay{
                 .button-container {
-                    &.two-button {
-                        .button {
-                            width: 48.6%;
-                            padding-top: 5%;
-                            font-size: 0.65em;
-                        }
-                    }
-                    &.one-button {
-                        .button {
-                            padding-top: 0;                            
-                            font-size: 0.8em;
-                        }
+                    .button {
+                        padding-top: 0;                            
+                        font-size: 0.8em;
                     }
                 }
-
             }
         }
 	}
@@ -1573,17 +1529,8 @@ $size-header-pad: 4em;
         .image {
             &.overlay{
                 .button-container {
-                    &.two-button {
-                        .button {
-                            width: 48.8%;
-                            padding-top: 10%;
-                            font-size: 0.76em;
-                        }
-                    }
-                    &.one-button {
-                        .button {
-                            font-size: 0.8em;
-                        }
+                    .button {
+                        font-size: 0.76em;
                     }
                 }
 

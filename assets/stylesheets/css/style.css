@@ -1602,13 +1602,12 @@ input[type=radio] + label:before {
 .image.overlay .button-container {
   display: none;
   position: absolute;
-  text-align: center;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
 }
-.image.overlay .button-container.one-button .button {
+.image.overlay .button-container .button {
   color: #fff !important;
   border: solid 5px;
   border-radius: 0.2em;
@@ -1620,23 +1619,7 @@ input[type=radio] + label:before {
   padding: 10% 0;
   min-width: 0;
 }
-.image.overlay .button-container.one-button .button:hover {
-  border-color: #49bf9d;
-  color: #49bf9d !important;
-}
-.image.overlay .button-container.two-button .button {
-  color: #fff !important;
-  border: solid 0.25em;
-  border-radius: 0.2em;
-  border-color: transparent;
-  font-size: 1.2em;
-  height: 100%;
-  width: 49.5%;
-  margin: 0 0;
-  padding: 10% 0;
-  min-width: 0;
-}
-.image.overlay .button-container.two-button .button:hover {
+.image.overlay .button-container .button:hover {
   border-color: #49bf9d;
   color: #49bf9d !important;
 }
@@ -1645,7 +1628,8 @@ input[type=radio] + label:before {
   filter: brightness(30%);
 }
 .image.overlay:hover .button-container {
-  display: inline;
+  display: inline-flex;
+  justify-content: space-between;
 }
 .image.overlay:hover:after {
   opacity: 1;
@@ -2173,8 +2157,7 @@ input[type=button]:disabled,
   }
 
   /* Button Container */
-  .image.overlay .button-container.two-button .button {
-    width: 49.3%;
+  .image.overlay .button-container .button {
     font-size: 1.2em;
   }
 }
@@ -2265,11 +2248,7 @@ input[type=button]:disabled,
   }
 
   /* Button Container */
-  .image.overlay .button-container.two-button .button {
-    width: 49%;
-    font-size: 1.2em;
-  }
-  .image.overlay .button-container.one-button .button {
+  .image.overlay .button-container .button {
     font-size: 1.2em;
   }
 }
@@ -2466,12 +2445,7 @@ input[type=button]:disabled,
   }
 
   /* Button Container */
-  .image.overlay .button-container.two-button .button {
-    width: 48.6%;
-    padding-top: 5%;
-    font-size: 0.65em;
-  }
-  .image.overlay .button-container.one-button .button {
+  .image.overlay .button-container .button {
     padding-top: 0;
     font-size: 0.8em;
   }
@@ -2522,13 +2496,8 @@ input[type=button]:disabled,
   }
 
   /* Button Container */
-  .image.overlay .button-container.two-button .button {
-    width: 48.8%;
-    padding-top: 10%;
+  .image.overlay .button-container .button {
     font-size: 0.76em;
-  }
-  .image.overlay .button-container.one-button .button {
-    font-size: 0.8em;
   }
 
   /* Footer */
