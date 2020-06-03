@@ -1460,8 +1460,7 @@ $size-header-pad: 4em;
         .image {
             &.overlay{
                 .button-container {
-                    .button {
-                        padding-top: 0;                            
+                    .button {                          
                         font-size: 0.8em;
                     }
                 }
@@ -1530,7 +1529,7 @@ $size-header-pad: 4em;
             &.overlay{
                 .button-container {
                     .button {
-                        font-size: 0.76em;
+                        font-size: 1.2em;
                     }
                 }
 
