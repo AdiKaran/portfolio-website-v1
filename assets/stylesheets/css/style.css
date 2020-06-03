@@ -2057,13 +2057,13 @@ input[type=button]:disabled,
   position: relative;
   color: #fff;
   font-weight: 600;
-  font-size: 1em;
+  font-size: 1.2em;
   line-height: 1em;
 }
 #logo p {
   position: relative;
   display: block;
-  font-size: 0.6em;
+  font-size: 0.8em;
   color: rgba(255, 255, 255, 0.5);
   line-height: 1.25em;
   margin: 0.5em 0 0 0;
@@ -2451,6 +2451,8 @@ input[type=button]:disabled,
     -ms-transition: -ms-transform  ease;
     transition: transform  ease;
     padding-bottom: 1px;
+    padding-left: 0em;
+    padding-right: 0em;
     margin-left: 15%;
     margin-right: 0;
   }
