@@ -1,2 +1,1 @@
-New Portfolio Website
-Visit https://www.adikaran.me/
+New Portfolio Website : https://www.adikaran.me/
